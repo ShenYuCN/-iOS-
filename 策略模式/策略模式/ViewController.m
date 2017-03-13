@@ -5,6 +5,8 @@
 //  Created by ShenYu on 2017/3/13.
 //  Copyright © 2017年 ShenYu. All rights reserved.
 //
+//  超市消费： 满减优惠、折扣、正常
+//
 #import "ViewController.h"
 #import "SYCashContext.h"
 #import "SYCashReturn.h"
