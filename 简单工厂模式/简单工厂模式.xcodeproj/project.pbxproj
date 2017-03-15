@@ -19,6 +19,9 @@
 		A51ED4651E77E8D7009117D4 /* SYOperationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A51ED4641E77E8D7009117D4 /* SYOperationAdd.m */; };
 		A51ED4681E77E90B009117D4 /* SYOperationSub.m in Sources */ = {isa = PBXBuildFile; fileRef = A51ED4671E77E90B009117D4 /* SYOperationSub.m */; };
 		A51ED46B1E77E936009117D4 /* SYOperationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A51ED46A1E77E936009117D4 /* SYOperationFactory.m */; };
+		A51ED46F1E78C300009117D4 /* SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A51ED46E1E78C300009117D4 /* SYAdd.m */; };
+		A51ED4721E78C32B009117D4 /* SYSub.m in Sources */ = {isa = PBXBuildFile; fileRef = A51ED4711E78C32B009117D4 /* SYSub.m */; };
+		A51ED4751E78C399009117D4 /* SYCalculateFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A51ED4741E78C399009117D4 /* SYCalculateFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,13 @@
 		A51ED4671E77E90B009117D4 /* SYOperationSub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYOperationSub.m; sourceTree = "<group>"; };
 		A51ED4691E77E936009117D4 /* SYOperationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYOperationFactory.h; sourceTree = "<group>"; };
 		A51ED46A1E77E936009117D4 /* SYOperationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYOperationFactory.m; sourceTree = "<group>"; };
+		A51ED46C1E78C28D009117D4 /* SYCalculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYCalculate.h; sourceTree = "<group>"; };
+		A51ED46D1E78C300009117D4 /* SYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYAdd.h; sourceTree = "<group>"; };
+		A51ED46E1E78C300009117D4 /* SYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYAdd.m; sourceTree = "<group>"; };
+		A51ED4701E78C32B009117D4 /* SYSub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYSub.h; sourceTree = "<group>"; };
+		A51ED4711E78C32B009117D4 /* SYSub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYSub.m; sourceTree = "<group>"; };
+		A51ED4731E78C399009117D4 /* SYCalculateFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYCalculateFactory.h; sourceTree = "<group>"; };
+		A51ED4741E78C399009117D4 /* SYCalculateFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYCalculateFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +182,13 @@
 		A51ED45F1E77E814009117D4 /* SimpleFactory_2 */ = {
 			isa = PBXGroup;
 			children = (
+				A51ED46C1E78C28D009117D4 /* SYCalculate.h */,
+				A51ED46D1E78C300009117D4 /* SYAdd.h */,
+				A51ED46E1E78C300009117D4 /* SYAdd.m */,
+				A51ED4701E78C32B009117D4 /* SYSub.h */,
+				A51ED4711E78C32B009117D4 /* SYSub.m */,
+				A51ED4731E78C399009117D4 /* SYCalculateFactory.h */,
+				A51ED4741E78C399009117D4 /* SYCalculateFactory.m */,
 			);
 			path = SimpleFactory_2;
 			sourceTree = "<group>";
@@ -313,10 +330,13 @@
 				A50AC4EA1E77E5CD00FA9FCE /* ViewController.m in Sources */,
 				A51ED4621E77E85B009117D4 /* SYOperation.m in Sources */,
 				A51ED4681E77E90B009117D4 /* SYOperationSub.m in Sources */,
+				A51ED4751E78C399009117D4 /* SYCalculateFactory.m in Sources */,
+				A51ED4721E78C32B009117D4 /* SYSub.m in Sources */,
 				A51ED4651E77E8D7009117D4 /* SYOperationAdd.m in Sources */,
 				A51ED46B1E77E936009117D4 /* SYOperationFactory.m in Sources */,
 				A50AC4E71E77E5CD00FA9FCE /* AppDelegate.m in Sources */,
 				A50AC4E41E77E5CD00FA9FCE /* main.m in Sources */,
+				A51ED46F1E78C300009117D4 /* SYAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

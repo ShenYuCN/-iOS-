@@ -14,6 +14,8 @@
  */
 #import "ViewController.h"
 #import "SYOperationFactory.h"
+
+#import "SYCalculateFactory.h"
 @interface ViewController ()
 
 @end
@@ -30,8 +32,11 @@
     
     // 动态实例化 具体产品类
     SYOperation *operation = [SYOperationFactory creteOperation:OperationAdd];
-    NSLog(@"%f",[operation getResultWithNumberA:100 numberB:50]);
+    NSLog(@"继承: %f",[operation getResultWithNumberA:100 numberB:50]);
 
+    
+    id<SYCalculate> cal = [SYCalculateFactory createCalculateWithType:CalculateSub];
+    NSLog(@"协议: %f",[cal getResultWithNumberA:100 numberB:50]);
     
 }
 
