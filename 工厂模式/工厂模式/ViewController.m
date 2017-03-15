@@ -30,6 +30,10 @@
     [super viewDidLoad];
     
     
+    
+   // 符合开闭原则.即当有新产品时，只要新建具体产品并继承抽象产品；新建具体工厂继承抽象工厂；而不用修改任何一个类
+    
+    
     // 遵守协议  头文件只需要导入 SYAddFactory.h
     id<SYFactory> factory = [[SYAddFactory alloc] init];
     id<SYCalculate> calculate = [factory creatCalculate];
