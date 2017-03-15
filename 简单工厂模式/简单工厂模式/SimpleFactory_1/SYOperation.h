@@ -6,6 +6,8 @@
 //  Copyright © 2017年 ShenYu. All rights reserved.
 //
 
+
+// 继承方式实现简单工厂
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 

@@ -13,8 +13,6 @@
 		A5E1538A1E764866002843A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5E153881E764866002843A6 /* Main.storyboard */; };
 		A5E1538C1E764866002843A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5E1538B1E764866002843A6 /* Assets.xcassets */; };
 		A5E1538F1E764866002843A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5E1538D1E764866002843A6 /* LaunchScreen.storyboard */; };
-		A5E1539A1E764866002843A6 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E153991E764866002843A6 /* ____Tests.m */; };
-		A5E153A51E764866002843A6 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E153A41E764866002843A6 /* ____UITests.m */; };
 		A5E153B51E764B77002843A6 /* SYCashContext.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E153B41E764B77002843A6 /* SYCashContext.m */; };
 		A5E153B91E766DA8002843A6 /* SYCashNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E153B81E766DA8002843A6 /* SYCashNormal.m */; };
 		A5E153BC1E766E11002843A6 /* SYCashRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E153BB1E766E11002843A6 /* SYCashRebate.m */; };
@@ -50,11 +48,7 @@
 		A5E1538E1E764866002843A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5E153901E764866002843A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5E153951E764866002843A6 /* 策略模式Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "策略模式Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5E153991E764866002843A6 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
-		A5E1539B1E764866002843A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5E153A01E764866002843A6 /* 策略模式UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "策略模式UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5E153A41E764866002843A6 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
-		A5E153A61E764866002843A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5E153B31E764B77002843A6 /* SYCashContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYCashContext.h; sourceTree = "<group>"; };
 		A5E153B41E764B77002843A6 /* SYCashContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYCashContext.m; sourceTree = "<group>"; };
 		A5E153B61E766C7A002843A6 /* SYCashProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYCashProtocol.h; sourceTree = "<group>"; };
@@ -95,8 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				A5E1537E1E764866002843A6 /* 策略模式 */,
-				A5E153981E764866002843A6 /* 策略模式Tests */,
-				A5E153A31E764866002843A6 /* 策略模式UITests */,
 				A5E1537D1E764866002843A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -134,24 +126,6 @@
 				A5E153801E764866002843A6 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A5E153981E764866002843A6 /* 策略模式Tests */ = {
-			isa = PBXGroup;
-			children = (
-				A5E153991E764866002843A6 /* ____Tests.m */,
-				A5E1539B1E764866002843A6 /* Info.plist */,
-			);
-			path = "策略模式Tests";
-			sourceTree = "<group>";
-		};
-		A5E153A31E764866002843A6 /* 策略模式UITests */ = {
-			isa = PBXGroup;
-			children = (
-				A5E153A41E764866002843A6 /* ____UITests.m */,
-				A5E153A61E764866002843A6 /* Info.plist */,
-			);
-			path = "策略模式UITests";
 			sourceTree = "<group>";
 		};
 		A5E153B21E764AEC002843A6 /* Strategy */ = {
@@ -318,7 +292,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5E1539A1E764866002843A6 /* ____Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +299,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5E153A51E764866002843A6 /* ____UITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

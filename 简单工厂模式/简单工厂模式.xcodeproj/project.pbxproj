@@ -13,8 +13,6 @@
 		A50AC4ED1E77E5CD00FA9FCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A50AC4EB1E77E5CD00FA9FCE /* Main.storyboard */; };
 		A50AC4EF1E77E5CD00FA9FCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A50AC4EE1E77E5CD00FA9FCE /* Assets.xcassets */; };
 		A50AC4F21E77E5CD00FA9FCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A50AC4F01E77E5CD00FA9FCE /* LaunchScreen.storyboard */; };
-		A50AC4FD1E77E5CD00FA9FCE /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A50AC4FC1E77E5CD00FA9FCE /* ______Tests.m */; };
-		A50AC5081E77E5CD00FA9FCE /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A50AC5071E77E5CD00FA9FCE /* ______UITests.m */; };
 		A51ED4621E77E85B009117D4 /* SYOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A51ED4611E77E85B009117D4 /* SYOperation.m */; };
 		A51ED4651E77E8D7009117D4 /* SYOperationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A51ED4641E77E8D7009117D4 /* SYOperationAdd.m */; };
 		A51ED4681E77E90B009117D4 /* SYOperationSub.m in Sources */ = {isa = PBXBuildFile; fileRef = A51ED4671E77E90B009117D4 /* SYOperationSub.m */; };
@@ -53,11 +51,7 @@
 		A50AC4F11E77E5CD00FA9FCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A50AC4F31E77E5CD00FA9FCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A50AC4F81E77E5CD00FA9FCE /* 简单工厂模式Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "简单工厂模式Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A50AC4FC1E77E5CD00FA9FCE /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
-		A50AC4FE1E77E5CD00FA9FCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A50AC5031E77E5CD00FA9FCE /* 简单工厂模式UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "简单工厂模式UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A50AC5071E77E5CD00FA9FCE /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
-		A50AC5091E77E5CD00FA9FCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A51ED4601E77E85B009117D4 /* SYOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYOperation.h; sourceTree = "<group>"; };
 		A51ED4611E77E85B009117D4 /* SYOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYOperation.m; sourceTree = "<group>"; };
 		A51ED4631E77E8D7009117D4 /* SYOperationAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYOperationAdd.h; sourceTree = "<group>"; };
@@ -104,8 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				A50AC4E11E77E5CD00FA9FCE /* 简单工厂模式 */,
-				A50AC4FB1E77E5CD00FA9FCE /* 简单工厂模式Tests */,
-				A50AC5061E77E5CD00FA9FCE /* 简单工厂模式UITests */,
 				A50AC4E01E77E5CD00FA9FCE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -144,24 +136,6 @@
 				A50AC4E31E77E5CD00FA9FCE /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A50AC4FB1E77E5CD00FA9FCE /* 简单工厂模式Tests */ = {
-			isa = PBXGroup;
-			children = (
-				A50AC4FC1E77E5CD00FA9FCE /* ______Tests.m */,
-				A50AC4FE1E77E5CD00FA9FCE /* Info.plist */,
-			);
-			path = "简单工厂模式Tests";
-			sourceTree = "<group>";
-		};
-		A50AC5061E77E5CD00FA9FCE /* 简单工厂模式UITests */ = {
-			isa = PBXGroup;
-			children = (
-				A50AC5071E77E5CD00FA9FCE /* ______UITests.m */,
-				A50AC5091E77E5CD00FA9FCE /* Info.plist */,
-			);
-			path = "简单工厂模式UITests";
 			sourceTree = "<group>";
 		};
 		A51ED45E1E77E7F8009117D4 /* SimpleFactory_1 */ = {
@@ -344,7 +318,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A50AC4FD1E77E5CD00FA9FCE /* ______Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,7 +325,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A50AC5081E77E5CD00FA9FCE /* ______UITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

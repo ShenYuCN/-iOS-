@@ -30,7 +30,8 @@
     // 新加运算方法:1、继承抽象产品类 2、增加工厂类的逻辑判断
     
     
-    // 动态实例化 具体产品类
+    // 工厂类包含逻辑判断，根据客户端的选择条件，动态实例化 具体产品类，对于客户端来讲，去除了与具体产品的依赖。
+    // 把type传递给工厂，工厂就会生产对应的实例
     SYOperation *operation = [SYOperationFactory creteOperation:OperationAdd];
     NSLog(@"继承: %f",[operation getResultWithNumberA:100 numberB:50]);
 

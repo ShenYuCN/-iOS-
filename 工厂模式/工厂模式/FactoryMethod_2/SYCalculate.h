@@ -6,9 +6,6 @@
 //  Copyright © 2017年 ShenYu. All rights reserved.
 //
 
-
-// 添加协议方式实现简单工厂
-
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
@@ -18,6 +15,8 @@ typedef enum : NSUInteger {
 } CalculateType;
 
 /* 定义一个协议，类似java的接口，以便其他类遵守这个协议，同时实现协议方法 */
+
+// 计算器接口
 @protocol SYCalculate <NSObject>
 
 - (CGFloat)getResultWithNumberA:(CGFloat)numberA numberB:(CGFloat)numberB;
