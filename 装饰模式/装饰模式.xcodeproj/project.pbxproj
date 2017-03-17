@@ -56,6 +56,7 @@
 		A55678001E793FE700C53168 /* GameCtrl+MoreCommond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GameCtrl+MoreCommond.h"; sourceTree = "<group>"; };
 		A55678011E793FE700C53168 /* GameCtrl+MoreCommond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GameCtrl+MoreCommond.m"; sourceTree = "<group>"; };
 		A55678031E79405500C53168 /* 装饰模式图片.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "装饰模式图片.jpg"; sourceTree = "<group>"; };
+		A55678081E7A38D500C53168 /* GameCtrl_Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCtrl_Extension.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +114,7 @@
 				A55677FE1E793EBC00C53168 /* DecoratorGameCtrl.m */,
 				A55678001E793FE700C53168 /* GameCtrl+MoreCommond.h */,
 				A55678011E793FE700C53168 /* GameCtrl+MoreCommond.m */,
+				A55678081E7A38D500C53168 /* GameCtrl_Extension.h */,
 				A55677C71E793D4000C53168 /* Supporting Files */,
 			);
 			path = "装饰模式";
