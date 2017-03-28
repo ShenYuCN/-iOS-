@@ -13,10 +13,14 @@
 		A55677D21E793D4000C53168 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A55677D01E793D4000C53168 /* Main.storyboard */; };
 		A55677D41E793D4000C53168 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A55677D31E793D4000C53168 /* Assets.xcassets */; };
 		A55677D71E793D4000C53168 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A55677D51E793D4000C53168 /* LaunchScreen.storyboard */; };
-		A55677FC1E793E2800C53168 /* GameCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = A55677FB1E793E2800C53168 /* GameCtrl.m */; };
-		A55677FF1E793EBC00C53168 /* DecoratorGameCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = A55677FE1E793EBC00C53168 /* DecoratorGameCtrl.m */; };
-		A55678021E793FE700C53168 /* GameCtrl+MoreCommond.m in Sources */ = {isa = PBXBuildFile; fileRef = A55678011E793FE700C53168 /* GameCtrl+MoreCommond.m */; };
 		A55678041E79405500C53168 /* 装饰模式图片.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A55678031E79405500C53168 /* 装饰模式图片.jpg */; };
+		A55678551E7B806300C53168 /* DecoratorGameCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = A55678501E7B806300C53168 /* DecoratorGameCtrl.m */; };
+		A55678561E7B806300C53168 /* GameCtrl+MoreCommond.m in Sources */ = {isa = PBXBuildFile; fileRef = A55678521E7B806300C53168 /* GameCtrl+MoreCommond.m */; };
+		A55678571E7B806300C53168 /* GameCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = A55678541E7B806300C53168 /* GameCtrl.m */; };
+		A556785B1E7B80AE00C53168 /* SYAbstractPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = A556785A1E7B80AE00C53168 /* SYAbstractPhone.m */; };
+		A556785E1E7B80FE00C53168 /* SYSumsangPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = A556785D1E7B80FE00C53168 /* SYSumsangPhone.m */; };
+		A55678611E7B814300C53168 /* SYDecoratorPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = A55678601E7B814300C53168 /* SYDecoratorPhone.m */; };
+		A55678641E7B84B000C53168 /* SYDecoratorGPSPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = A55678631E7B84B000C53168 /* SYDecoratorGPSPhone.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,14 +53,22 @@
 		A55677D81E793D4000C53168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A55677DD1E793D4000C53168 /* 装饰模式Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "装饰模式Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A55677E81E793D4000C53168 /* 装饰模式UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "装饰模式UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A55677FA1E793E2800C53168 /* GameCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCtrl.h; sourceTree = "<group>"; };
-		A55677FB1E793E2800C53168 /* GameCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCtrl.m; sourceTree = "<group>"; };
-		A55677FD1E793EBC00C53168 /* DecoratorGameCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecoratorGameCtrl.h; sourceTree = "<group>"; };
-		A55677FE1E793EBC00C53168 /* DecoratorGameCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecoratorGameCtrl.m; sourceTree = "<group>"; };
-		A55678001E793FE700C53168 /* GameCtrl+MoreCommond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GameCtrl+MoreCommond.h"; sourceTree = "<group>"; };
-		A55678011E793FE700C53168 /* GameCtrl+MoreCommond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GameCtrl+MoreCommond.m"; sourceTree = "<group>"; };
 		A55678031E79405500C53168 /* 装饰模式图片.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "装饰模式图片.jpg"; sourceTree = "<group>"; };
 		A55678081E7A38D500C53168 /* GameCtrl_Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCtrl_Extension.h; sourceTree = "<group>"; };
+		A556784F1E7B806300C53168 /* DecoratorGameCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecoratorGameCtrl.h; sourceTree = "<group>"; };
+		A55678501E7B806300C53168 /* DecoratorGameCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecoratorGameCtrl.m; sourceTree = "<group>"; };
+		A55678511E7B806300C53168 /* GameCtrl+MoreCommond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GameCtrl+MoreCommond.h"; sourceTree = "<group>"; };
+		A55678521E7B806300C53168 /* GameCtrl+MoreCommond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GameCtrl+MoreCommond.m"; sourceTree = "<group>"; };
+		A55678531E7B806300C53168 /* GameCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCtrl.h; sourceTree = "<group>"; };
+		A55678541E7B806300C53168 /* GameCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCtrl.m; sourceTree = "<group>"; };
+		A55678591E7B80AE00C53168 /* SYAbstractPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYAbstractPhone.h; sourceTree = "<group>"; };
+		A556785A1E7B80AE00C53168 /* SYAbstractPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYAbstractPhone.m; sourceTree = "<group>"; };
+		A556785C1E7B80FE00C53168 /* SYSumsangPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYSumsangPhone.h; sourceTree = "<group>"; };
+		A556785D1E7B80FE00C53168 /* SYSumsangPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYSumsangPhone.m; sourceTree = "<group>"; };
+		A556785F1E7B814300C53168 /* SYDecoratorPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYDecoratorPhone.h; sourceTree = "<group>"; };
+		A55678601E7B814300C53168 /* SYDecoratorPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYDecoratorPhone.m; sourceTree = "<group>"; };
+		A55678621E7B84B000C53168 /* SYDecoratorGPSPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYDecoratorGPSPhone.h; sourceTree = "<group>"; };
+		A55678631E7B84B000C53168 /* SYDecoratorGPSPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYDecoratorGPSPhone.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,14 +118,10 @@
 			isa = PBXGroup;
 			children = (
 				A55678031E79405500C53168 /* 装饰模式图片.jpg */,
+				A55678581E7B806B00C53168 /* Demo_2 */,
+				A556784E1E7B806300C53168 /* Demo_1 */,
 				A55677CD1E793D4000C53168 /* ViewController.h */,
 				A55677CE1E793D4000C53168 /* ViewController.m */,
-				A55677FA1E793E2800C53168 /* GameCtrl.h */,
-				A55677FB1E793E2800C53168 /* GameCtrl.m */,
-				A55677FD1E793EBC00C53168 /* DecoratorGameCtrl.h */,
-				A55677FE1E793EBC00C53168 /* DecoratorGameCtrl.m */,
-				A55678001E793FE700C53168 /* GameCtrl+MoreCommond.h */,
-				A55678011E793FE700C53168 /* GameCtrl+MoreCommond.m */,
 				A55678081E7A38D500C53168 /* GameCtrl_Extension.h */,
 				A55677C71E793D4000C53168 /* Supporting Files */,
 			);
@@ -132,6 +140,34 @@
 				A55677C81E793D4000C53168 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A556784E1E7B806300C53168 /* Demo_1 */ = {
+			isa = PBXGroup;
+			children = (
+				A556784F1E7B806300C53168 /* DecoratorGameCtrl.h */,
+				A55678501E7B806300C53168 /* DecoratorGameCtrl.m */,
+				A55678511E7B806300C53168 /* GameCtrl+MoreCommond.h */,
+				A55678521E7B806300C53168 /* GameCtrl+MoreCommond.m */,
+				A55678531E7B806300C53168 /* GameCtrl.h */,
+				A55678541E7B806300C53168 /* GameCtrl.m */,
+			);
+			path = Demo_1;
+			sourceTree = "<group>";
+		};
+		A55678581E7B806B00C53168 /* Demo_2 */ = {
+			isa = PBXGroup;
+			children = (
+				A55678591E7B80AE00C53168 /* SYAbstractPhone.h */,
+				A556785A1E7B80AE00C53168 /* SYAbstractPhone.m */,
+				A556785C1E7B80FE00C53168 /* SYSumsangPhone.h */,
+				A556785D1E7B80FE00C53168 /* SYSumsangPhone.m */,
+				A556785F1E7B814300C53168 /* SYDecoratorPhone.h */,
+				A55678601E7B814300C53168 /* SYDecoratorPhone.m */,
+				A55678621E7B84B000C53168 /* SYDecoratorGPSPhone.h */,
+				A55678631E7B84B000C53168 /* SYDecoratorGPSPhone.m */,
+			);
+			path = Demo_2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,12 +304,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A55677FC1E793E2800C53168 /* GameCtrl.m in Sources */,
-				A55678021E793FE700C53168 /* GameCtrl+MoreCommond.m in Sources */,
+				A55678571E7B806300C53168 /* GameCtrl.m in Sources */,
+				A55678551E7B806300C53168 /* DecoratorGameCtrl.m in Sources */,
 				A55677CF1E793D4000C53168 /* ViewController.m in Sources */,
-				A55677FF1E793EBC00C53168 /* DecoratorGameCtrl.m in Sources */,
 				A55677CC1E793D4000C53168 /* AppDelegate.m in Sources */,
+				A55678561E7B806300C53168 /* GameCtrl+MoreCommond.m in Sources */,
+				A55678641E7B84B000C53168 /* SYDecoratorGPSPhone.m in Sources */,
+				A55678611E7B814300C53168 /* SYDecoratorPhone.m in Sources */,
+				A556785B1E7B80AE00C53168 /* SYAbstractPhone.m in Sources */,
 				A55677C91E793D4000C53168 /* main.m in Sources */,
+				A556785E1E7B80FE00C53168 /* SYSumsangPhone.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

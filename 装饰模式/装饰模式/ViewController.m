@@ -22,6 +22,11 @@
 
 #import "DecoratorGameCtrl.h"
 #import "GameCtrl+MoreCommond.h"
+
+
+#import "SYAbstractPhone.h"
+#import "SYDecoratorGPSPhone.h"
+#import "SYSumsangPhone.h"
 @interface ViewController ()
 
 @end
@@ -31,6 +36,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+//    [self testDemo_1];
+    
+    [self testDemo_2];
+}
+- (void)testDemo_1{
+
     GameCtrl *ctrl = [[GameCtrl alloc] init];
     
     // 常规方法
@@ -40,12 +51,22 @@
     // 分类
     [ctrl left];
     [ctrl right];
-    NSLog(@"----end---");
     
     
     // 装饰模式方法
     DecoratorGameCtrl *decorator  = [[DecoratorGameCtrl alloc] init];
     [decorator cheat];
+    
+    NSLog(@"demo_1  end");
 }
+- (void)testDemo_2{
+    
+    SYSumsangPhone *sumsang = [[SYSumsangPhone alloc] init];
+    NSLog(@"%@", [sumsang name]);
+    
+    SYDecoratorGPSPhone *gpsPhone = [[SYDecoratorGPSPhone alloc] init];
+    [gpsPhone setComponent:sumsang];
+    NSLog(@"%@", [gpsPhone name]);
 
+}
 @end
