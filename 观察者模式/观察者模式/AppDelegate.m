@@ -1,9 +1,9 @@
 //
 //  AppDelegate.m
-//  抽象工厂
+//  观察者模式
 //
-//  Created by ShenYu on 2017/3/15.
-//  Copyright © 2017年 ShenYu. All rights reserved.
+//  Created by ShenYu on 2018/10/22.
+//  Copyright © 2018 ShenYu. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -17,21 +17,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
-    NSNumber *boolNumber = [NSNumber numberWithBool:YES];
-    NSNumber *intNumber = [NSNumber numberWithInt:10];
-    NSNumber *floatNumber = [NSNumber numberWithFloat:10.0];
-    NSNumber *doubleNumber = [NSNumber numberWithDouble:10.0];
-    
-    NSLog(@"%@", [[boolNumber class] description]);
-    NSLog(@"%@", [[intNumber class] description]);
-    NSLog(@"%@", [[floatNumber class] description]);
-    NSLog(@"%@", [[doubleNumber class] description]);
-    
-//    2015-09-06 21:25:13.116 NSNumberDemo[59970:4475507] __NSCFBoolean
-//    2015-09-06 21:25:13.117 NSNumberDemo[59970:4475507] __NSCFNumber
-//    2015-09-06 21:25:13.117 NSNumberDemo[59970:4475507] __NSCFNumber
-//    2015-09-06 21:25:13.117 NSNumberDemo[59970:4475507] __NSCFNumber
     return YES;
 }
 

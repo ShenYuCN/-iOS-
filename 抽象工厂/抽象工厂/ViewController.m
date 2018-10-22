@@ -32,13 +32,13 @@
     
     
     id<SYFactory> factory = [[AppleFactory alloc] init];
-    id<SYPhone> phone = [factory createPhone];
-    [phone callWithNumber:[[PhoneNumber alloc] init]];
-    
+    id<SYPhone> phone = [factory createPhone];          //    苹果 工厂  创造  苹果手机
+    [phone callWithNumber:[[PhoneNumber alloc] init]];  // 用 苹果 手机 给一个号码 打电话
+
     
     id<SYFactory> factory2 = [[SumsangFactory alloc] init];
-    id<SYPad>     pad = [factory2 createPad];
-    [pad watchMovie];
+    id<SYPad>     pad = [factory2 createPad];  // 三星 工厂  生产  三星Pad
+    [pad watchMovie];   // 用 三星 平板 看电影
     
 }
 
